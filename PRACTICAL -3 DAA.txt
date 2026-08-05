@@ -1,4 +1,4 @@
-PRACTICAL-3
+
 #include <iostream>
 #include <vector>
 #include <cstdlib>
@@ -25,7 +25,7 @@ void maxHeapify(vector<int> &arr, int size, int root)
  {
  largest = rightChild;
  }
-PRACTICAL-3
+
  // If root is not the largest, swap and heapify again
  if (largest != root)
  {
@@ -52,7 +52,7 @@ void maxHeapSort(vector<int> &arr)
  maxHeapify(arr, i, 0);
  }
 }
-PRACTICAL-3
+
 //--------------------------------------------------
 // Function to maintain Min Heap property
 //--------------------------------------------------
@@ -127,7 +127,7 @@ PRACTICAL-3
  //---------------- MIN HEAP SORT ----------------//
  auto startMin = high_resolution_clock::now();
  minHeapSort(minHeapArray);
-PRACTICAL-3
+
  auto endMin = high_resolution_clock::now();
  //---------------- Calculate Time ----------------//
  auto maxNano =
